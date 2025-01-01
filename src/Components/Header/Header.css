@@ -1,0 +1,62 @@
+/* Navbar background and dropdown styles */
+.headerBackground {
+  background-color: black !important;
+  color: white !important;
+  width: 100%;
+}
+
+.dropdown-title-container {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.dropdown-icon {
+  margin-left: 10px;
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+/* Full-width alert */
+.custom-alert {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: none;
+}
+
+.custom-alert .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-alert .col {
+  flex: 1; /* Ensure all columns take equal width */
+  margin: 0 10px; /* Add spacing between columns */
+  text-align: left;
+}
+
+.custom-alert h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+}

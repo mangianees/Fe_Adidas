@@ -1,0 +1,62 @@
+/* General Navbar styling */
+.adidas-navbar {
+    background-color: rgb(250, 248, 248) !important;
+    padding: 10px 20px;
+    color: black;
+  }
+  
+  /* Logo */
+  .adidas-logo {
+    height: 40px;
+  }
+  
+  /* Center Menus */
+  .menu .menu-item {
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 15px;
+  }
+  
+  .menu .menu-item.bold {
+    font-weight: bold;
+  }
+  
+  .menu .menu-item:hover {
+    color: #ccc;
+  }
+  
+  /* Right Corner Icons */
+  .nav-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .search-form {
+    position: relative;
+  }
+  
+  .search-input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 150px;
+  }
+  
+  .search-icon {
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-icon {
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-icon:hover {
+    color:black;
+  }
+  
