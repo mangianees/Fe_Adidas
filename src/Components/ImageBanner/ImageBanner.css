@@ -1,0 +1,22 @@
+.backgroundImage {
+    border: solid;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the container while cropping edges if necessary */
+    background-position: center; /* Centers the image */
+    height: 50vh; /* Ensures the div covers half the viewport height */
+    width: 100%; /* Makes the div span the entire width of the screen */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center; /* Center content vertically */
+    text-align: left;
+    padding: 2%;
+    color: white; /* Optional: Adjust text color for readability */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px; /* Adjusts spacing between buttons */
+  }
+  

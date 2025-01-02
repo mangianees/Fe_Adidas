@@ -1,0 +1,12 @@
+.SeasonalHeaderBg{
+  background-color:rgb(235, 239, 242);
+  color: black;
+}
+
+
+.dropdownTitle {
+  text-align: center;
+  font-size: 1.2rem;
+  
+  color: rgb(3, 3, 3);
+}
