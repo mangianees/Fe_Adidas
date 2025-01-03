@@ -20,7 +20,7 @@
   }
   
   .offerCard img {
-    max-height: 150px;
+    max-height: 200px;
     object-fit: contain;
   }
   
@@ -32,3 +32,6 @@
     margin-top: 10px;
   }
   
+  Swiper:hover{
+    cursor: pointer;
+  }
